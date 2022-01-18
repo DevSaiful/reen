@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+}
+
+img{
+    vertical-align: middle;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+
+.container{
+    width: 1170px;
+    margin:  0 auto;
+
+}
+
+/* ========================= main css start============================*/
+.head-main{
+    display: flex;
+}
+
+.logo{
+    width: 20%;
+    margin-top: 25px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.navbar{
+    width: 80%;
+    text-align: right;
+}
+
+
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar a{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 110px;
+    padding-left: 25px;
+    color: #506a85;
+}
+
+/* ================banner=================== */
+
+
+#banner{
+
+    background: url(../image/Reen.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+.banner-main{
+    text-align: center;
+}
+
+.banner-main h1{
+    font-family: 'Lato' sans-serif;
+    font-weight: 900;
+    font-size: 78px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+}
+
+.banner-main p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #a3b1bf;
+    margin-bottom: 65px;
+    padding: 0px 350px;
+}
+
+.banner-main a{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    background: #00bc9c;
+    padding: 20px 72px;
+}
+
+
+/* =================response============== */
+
+#response{
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 75px;
+}
+
+.response-text h2{
+    font-size: 38px;
+    font-weight: 550;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #506a85;
+    margin-bottom: 40px;
+}
+
+.response-text p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #73879c;
+    padding: 0px 250px;
+}
+
+#product{
+    margin-top: 80px;
+    margin-bottom: 260px;
+}
+
+.product-main{
+   display: flex;
+   justify-content: space-around;
+}
+.product-item{
+    width: 356px;
+    display: flex;
+}
+
+.product-icon{
+    width: 20%;
+}
+
+.product-icon i{
+    font-size: 50px;
+    color: #1bb899;
+}
+
+.product-text{
+  width: 80%;
+}
+
+.product-text h3{
+    font-size: 20px;
+    font-weight: 550;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #506a85;
+}
+
+.product-text p{
+    margin-top: 30px;
+    color: #73879c;
+    text-align: justify;
+    line-height: 20px;
+}
+
+
+
+/* ===============================work============= */
+
+#work{
+    padding-top: 130px;
+    padding-bottom: 130px;
+    background: #f2f5f7;
+    text-align: center;
+}
+
+
+.work-type{
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.work-item{
+    width: 575px;
+    text-align: center;
+    background: #ffffff;
+}
+
+.work-item img{
+    width: 100%;
+}
+
+.work-item h3{
+    font-family: 'lato' sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+     color: #506a85;
+     margin-top: 35px;
+     margin-bottom: 15px;
+}
+
+.work-item p{
+    font-family: 'lato' sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #73879c;
+    padding-bottom: 30px;
+}
+
+.work-product{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.product-number{
+    width: 270px;
+}
